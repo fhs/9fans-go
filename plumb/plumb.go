@@ -1,5 +1,5 @@
 // Package plumb provides routines for sending and receiving messages for the plumber.
-package plumb // import "9fans.net/go/plumb"
+package plumb
 
 import (
 	"bytes"

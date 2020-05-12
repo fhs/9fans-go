@@ -1,4 +1,4 @@
-package main // import "9fans.net/go/acme/Dict"
+package main
 
 import (
 	"flag"

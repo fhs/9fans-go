@@ -3,7 +3,7 @@
 // Many of the functions in this package take a format string and optional
 // parameters.  In the documentation, the notation format, ... denotes the result
 // of formatting the string and arguments using fmt.Sprintf.
-package acme // import "9fans.net/go/acme"
+package acme
 
 import (
 	"bufio"

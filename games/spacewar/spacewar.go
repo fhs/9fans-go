@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package main // import "9fans.net/go/games/spacewar"
+package main
 
 import (
 	"bytes"

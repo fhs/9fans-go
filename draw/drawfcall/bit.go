@@ -1,4 +1,4 @@
-package drawfcall // import "9fans.net/go/draw/drawfcall"
+package drawfcall
 
 // Note that these are big-endian, unlike Plan 9 fcalls, which are little-endian.
 

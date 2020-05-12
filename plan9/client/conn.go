@@ -1,6 +1,6 @@
 // +build !plan9
 
-package client // import "9fans.net/go/plan9/client"
+package client
 
 import (
 	"fmt"
