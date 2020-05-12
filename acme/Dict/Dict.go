@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"9fans.net/go/acme"
+	"github.com/fhs/9fans-go/acme"
 	"golang.org/x/net/dict"
 )
 

@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"9fans.net/go/draw"
+	"github.com/fhs/9fans-go/draw"
 )
 
 func main() {

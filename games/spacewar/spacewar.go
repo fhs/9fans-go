@@ -28,8 +28,8 @@ import (
 	"os"
 	"time"
 
-	"9fans.net/go/draw"
-	"9fans.net/go/games/spacewar/pdp1"
+	"github.com/fhs/9fans-go/draw"
+	"github.com/fhs/9fans-go/games/spacewar/pdp1"
 )
 
 func main() {

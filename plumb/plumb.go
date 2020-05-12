@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"9fans.net/go/plan9/client"
+	"github.com/fhs/9fans-go/plan9/client"
 )
 
 // Message represents a message to or from the plumber.

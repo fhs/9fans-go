@@ -43,7 +43,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"9fans.net/go/acme"
+	"github.com/fhs/9fans-go/acme"
 )
 
 var args []string

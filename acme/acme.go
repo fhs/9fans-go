@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"9fans.net/go/draw"
-	"9fans.net/go/plan9"
-	"9fans.net/go/plan9/client"
+	"github.com/fhs/9fans-go/draw"
+	"github.com/fhs/9fans-go/plan9"
+	"github.com/fhs/9fans-go/plan9/client"
 )
 
 // A Win represents a single acme window and its control files.

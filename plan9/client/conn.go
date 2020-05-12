@@ -7,7 +7,7 @@ import (
 	"io"
 	"sync"
 
-	"9fans.net/go/plan9"
+	"github.com/fhs/9fans-go/plan9"
 )
 
 type Error string
