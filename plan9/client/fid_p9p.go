@@ -24,7 +24,7 @@ type Fid struct {
 
 func (fid *Fid) Close() error {
 	if fid == nil {
-		return nil
+		return os.ErrInvalid
 	}
 	tx := &plan9.Fcall{Type: plan9.Tclunk, Fid: fid.fid}
 	_, err := fid.c.rpc(tx)
