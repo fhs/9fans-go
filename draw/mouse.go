@@ -47,7 +47,10 @@ func mouseproc(mc *Mousectl, d *Display, ch chan Mouse, rch chan bool) {
 	for {
 		m, resized, err := d.conn.ReadMouse()
 		if err != nil {
-			log.Fatal(err)
+			close(rch)
+			close(ch)
+			log.Println("mouseproc:", err)
+			return
 		}
 		if resized {
 			rch <- true

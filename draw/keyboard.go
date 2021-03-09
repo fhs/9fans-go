@@ -42,7 +42,9 @@ func kbdproc(d *Display, ch chan rune) {
 	for {
 		r, err := d.conn.ReadKbd()
 		if err != nil {
-			log.Fatal(err)
+			close(ch)
+			log.Println("kbdproc:", err)
+			return
 		}
 		ch <- r
 	}
