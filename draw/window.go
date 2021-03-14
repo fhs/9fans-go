@@ -3,6 +3,7 @@ package draw
 import (
 	"fmt"
 	"image"
+	"sync/atomic"
 )
 
 var screenid uint32
@@ -24,8 +25,7 @@ func (i *Image) allocScreen(fill *Image, public bool) (*Screen, error) {
 			return nil, fmt.Errorf("allocscreen: cannot find free id")
 		}
 		a := d.bufimage(1 + 4 + 4 + 4 + 1)
-		screenid++
-		id = screenid
+		id = atomic.AddUint32(&screenid, 1)
 		a[0] = 'A'
 		bplong(a[1:], id)
 		bplong(a[5:], i.id)
